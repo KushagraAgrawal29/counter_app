@@ -44,7 +44,7 @@ const Counter = () => {
             id="minLimit"
             value={minLimit}
             onChange={handleMinLimitChange}
-            className="px-2 py-1 border border-gray-300 rounded"
+            className="px-2 py-1 border border-gray-300 rounded text-white"
           />
           <label htmlFor="maxLimit">Max Limit:</label>
           <input
@@ -52,7 +52,7 @@ const Counter = () => {
             id="maxLimit"
             value={maxLimit}
             onChange={handleMaxLimitChange}
-            className="px-2 py-1 border border-gray-300 rounded"
+            className="px-2 py-1 border border-gray-300 rounded text-white"
           />
         </div>
         <div className="flex items-center justify-center gap-4">
