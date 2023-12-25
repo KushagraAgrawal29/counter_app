@@ -1,11 +1,17 @@
-import React from 'react'
+// About.js
+import React from 'react';
 
-const About = () => {
+function About() {
   return (
-    <div>
-      About
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="bg-white p-8 rounded shadow-md">
+        <h1 className="text-4xl font-bold mb-4 text-center">About Counter App</h1>
+        <p className="text-lg">
+          This app is a simple example to demonstrate React Router and basic functionalities.
+        </p>
+      </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
