@@ -8,6 +8,7 @@ function About() {
         <h1 className="text-4xl font-bold mb-4 text-center">About Counter App</h1>
         <p className="text-lg">
           This app is a simple example to demonstrate React Router and basic functionalities.
+          Building it to make concepts strong
         </p>
       </div>
     </div>
